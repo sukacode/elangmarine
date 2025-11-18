@@ -1,10 +1,47 @@
+import DataImage from "./data";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestias itaque quia libero, inventore quae? Ducimus, numquam alias ex iusto odit nam laborum harum quam, voluptatem minus reprehenderit sed et sequi officiis. Iure incidunt ad accusamus porro beatae eius atque dolorum quae nihil est, distinctio cum laborum excepturi eum sit aspernatur quo cupiditate alias facilis officiis! Aliquam reiciendis corrupti commodi, asperiores eum amet tenetur quae modi error id beatae itaque labore, laudantium, temporibus rem voluptates corporis nam totam neque dolorum optio obcaecati. Id illum cum quaerat, at quas, eveniet non aut ab quasi quos aspernatur ullam? Aperiam doloremque omnis autem quisquam reprehenderit, cupiditate quae ipsa error numquam animi officia dignissimos aspernatur nobis itaque quos dolor. Excepturi ipsum incidunt corporis quasi debitis, dolores officiis officia soluta quo nostrum autem, aliquid deleniti sed adipisci voluptatum velit, error nobis qui corrupti voluptates commodi! Numquam, quae alias quidem, cupiditate unde aperiam nam soluta voluptatibus reprehenderit aliquam repellat odit asperiores ipsum deserunt facere est magni molestiae sint nesciunt, vel reiciendis quo dolor vero. Et natus possimus quidem nulla vitae dignissimos sit nihil, quos esse temporibus non. Quidem animi officiis debitis possimus dolor beatae cumque voluptatum assumenda recusandae nam, velit commodi est distinctio suscipit optio eum?
-      </h1>
+      <div className="hero grid grid-cols-2">
+        <div>
+          <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit   p-4 rounded-2xl">
+            <img
+              src={DataImage.HeroImage}
+              alt="Hero Image"
+              className="w-10 rounded-md"
+            />
+            <q>Elang Marine, jasa perbaikan dan perawatan kapal laut</q>
+          </div>
+          <h1 className="text-5xl/tight font-bold mb-6"></h1>
+          <p className="text-base/loose mb-6 opacity-50">
+            PT Elang Marine Teknindo adalah perusahaan yang bergerak di bidang
+            jasa perbaikan dan perawatan kapal laut, dengan komitmen tinggi
+            terhadap kualitas, ketepatan waktu, dan keselamatan kerja.
+          </p>
+          <div className="flex items-center gap-4">
+            <a
+              href="#"
+              className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
+            >
+              Our Products
+            </a>
+            <a
+              href="#"
+              className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
+            >
+              Our Services
+            </a>
+          </div>
+        </div>
+        <img
+          src={DataImage.HeroImage}
+          alt="Image"
+          className="w-[400px] ml-auto"
+        />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

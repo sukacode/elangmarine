@@ -1,7 +1,9 @@
 import HeroImage from "/assets/hero-img.webp";
+import ElangImage from "/assets/public/assets/PTElangMarineTeknindo.png";
 
 const Image = {
   HeroImage,
+  ElangImage,
 };
 
 export default Image;
