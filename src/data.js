@@ -1,9 +1,7 @@
-import HeroImage from "/assets/hero-img.webp";
-import ElangImage from "/assets/public/assets/PTElangMarineTeknindo.png";
+import HeroImage from "/public/assets/30.jpg";
 
 const Image = {
   HeroImage,
-  ElangImage,
 };
 
 export default Image;
