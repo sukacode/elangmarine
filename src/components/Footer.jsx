@@ -6,6 +6,11 @@ const Footer = () => {
         LEGALYN – CIPUTRA INTERNASIONAL,
         <br />
         TOKOPEDIA CARE TOWER, LT 15 UNIT 10 JAKARTA BARAT – INDONESIA
+        <br />
+        <br />
+        email : support@elangmarine.com
+        <br />
+        elangmarineteknindo©️2025
       </p>
 
       {/* <div className="flex gap-7">
