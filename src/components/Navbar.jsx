@@ -29,7 +29,7 @@ const Navbar = () => {
             className="w-15 rounded-md"
             loading="lazy"
           />
-          PT.Elang Marine Teknologi
+          PT.Elang Marine Teknindo
         </h1>
       </div>
 
