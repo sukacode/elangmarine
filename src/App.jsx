@@ -50,9 +50,14 @@ function App() {
           loading="lazy"
         />
       </div>
+
       {/* About */}
       <div className="about mt-32 py-10">
-        <div className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+        <div
+          className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
+          data-aos="fade-up"
+          data-aos-once="true"
+        >
           <img
             src={DataImage.HeroImage}
             alt="Image"
@@ -97,7 +102,7 @@ function App() {
           <div className="grid md:grid-cols-2 items-start items-center pt-6 xl:gap-0 gap-6">
             <div>
               <h1 className="text-2xl text-center font-bold">Visi</h1>
-              <p className="text-base/loose">
+              <p className="text-base/loose w-full">
                 Menjadi perusahaan jasa perbaikan kapal terkemuka di Indonesia
                 yang dikenal karena keandalan, profesionalisme, dan komitmen
                 terhadap keselamatan serta kualitas kerja.
@@ -105,7 +110,7 @@ function App() {
             </div>
             <div>
               <h1 className="text-2xl text-center font-bold">Misi</h1>
-              <p className="text-base/loose">
+              <p className="text-base/loose w-full">
                 1.Menyediakan layanan perbaikan dan perawatan kapal dengan
                 standar mutu tinggi dan tepat waktu. <br />
                 2.Membangun kemitraan jangka panjang dengan pelanggan
@@ -122,10 +127,20 @@ function App() {
 
         {/* tools */}
         <div className="tools mt-32">
-          <h1 className="text-4xl/snug font-bold mb-4">
+          <h1
+            className="text-4xl/snug font-bold mb-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             Nilai-nilai perusahaan
           </h1>
-          <p className="xl:w2/5 lg:w2/4 md:w2/3 sm:w3/4 w-full text-base/loose opacity-50">
+          <p
+            className="xl:w2/5 lg:w2/4 md:w2/3 sm:w3/4 w-full text-base/loose opacity-50"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-once="true"
+          >
             Berikut ini beberapa nilai-nilai perusahaan
           </p>
           <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -133,6 +148,10 @@ function App() {
               <div
                 className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group"
                 key={tool.id}
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay={tool.dad}
+                data-aos-once="true"
               >
                 <img
                   src={tool.gambar}
@@ -152,13 +171,33 @@ function App() {
 
       {/* Product */}
       <div className="proyek mt-32 py-10">
-        <h1 className="text-center text-4xl font-bold mb-2">Produk</h1>
-        <p className="text-base/loose text-center opacity-50">
+        <h1
+          className="text-center text-4xl font-bold mb-2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          Produk
+        </h1>
+        <p
+          className="text-base/loose text-center opacity-50"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          data-aos-once="true"
+        >
           Produk yang kami miliki.
         </p>
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map((proyek) => (
-            <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md">
+            <div
+              key={proyek.id}
+              className="p-4 bg-zinc-800 rounded-md"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay={proyek.dad}
+              data-aos-once="true"
+            >
               {/* image need maintain */}
               {/* <img src={proyek.gambar} alt="Proyek Image" loading="lazy" /> */}
               <div>
@@ -191,8 +230,21 @@ function App() {
 
       {/* kontak */}
       <div className="kontak mt-32 sm:p-10 p-0">
-        <h1 className="text-4xl mb-2 font-bold text-center">Kontak</h1>
-        <p className="text-base/loose text-center bm-10 opacity-50">
+        <h1
+          className="text-4xl mb-2 font-bold text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          Kontak
+        </h1>
+        <p
+          className="text-base/loose text-center bm-10 opacity-50"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          data-aos-once="true"
+        >
           Mari terhubung dengan kami
         </p>
 
@@ -201,6 +253,10 @@ function App() {
           method="POST"
           className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md"
           autoComplete="off"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          data-aos-once="true"
         >
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
