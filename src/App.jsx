@@ -264,7 +264,7 @@ function App() {
               <input
                 type="text"
                 name="nama"
-                placeholder="Masukkan Email"
+                placeholder="Masukkan Nama"
                 required
                 className="border border-zinc-500 p-2 rounded-md"
               />
@@ -274,7 +274,7 @@ function App() {
               <input
                 type="email"
                 name="email"
-                placeholder="Masukkan Nama"
+                placeholder="Masukkan email"
                 className="border border-zinc-500 p-2 rounded-md"
                 required
               />
