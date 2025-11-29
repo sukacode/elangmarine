@@ -30,17 +30,17 @@ function App() {
           </p>
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="#product"
               className="bg-emerald-700 p-4 rounded-2xl hover:bg-emerald-600"
             >
               Our Products
             </a>
-            <a
+            {/* <a
               href="#"
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
             >
               Our Services
-            </a>
+            </a> */}
           </div>
         </div>
         <img
@@ -52,7 +52,7 @@ function App() {
       </div>
 
       {/* About */}
-      <div className="about mt-32 py-10">
+      <div className="about mt-32 py-10" id="about">
         <div
           className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
           data-aos="fade-up"
@@ -170,7 +170,7 @@ function App() {
       {/* End of About */}
 
       {/* Product */}
-      <div className="proyek mt-32 py-10">
+      <div className="proyek mt-32 py-10" id="product">
         <h1
           className="text-center text-4xl font-bold mb-2"
           data-aos="fade-up"
@@ -229,7 +229,7 @@ function App() {
       {/* Product */}
 
       {/* kontak */}
-      <div className="kontak mt-32 sm:p-10 p-0">
+      <div className="kontak mt-32 sm:p-10 p-0" id="contact">
         <h1
           className="text-4xl mb-2 font-bold text-center"
           data-aos="fade-up"

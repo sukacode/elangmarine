@@ -2,11 +2,18 @@ const Footer = () => {
   return (
     <div className="mt-32 py-4 w-full flex md:flex-row flex-col gap-6 md:gap-0 justify-center items-center">
       {/* <h1 className="text-2xl font-bold">PT. Elang Marine</h1> */}
-      <div className="flex gap-7">
+      <p className="flex items-center text-center text-sm text-gray-400">
+        LEGALYN – CIPUTRA INTERNASIONAL,
+        <br />
+        TOKOPEDIA CARE TOWER, LT 15 UNIT 10 JAKARTA BARAT – INDONESIA
+      </p>
+
+      {/* <div className="flex gap-7">
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Proyek</a>
-      </div>
+      </div> */}
+
       {/* <div className="flex items-center gap-3">
         <a href="#">
           <i className="ri-linkedin-fill ri-2x"></i>

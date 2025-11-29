@@ -39,22 +39,22 @@ const Navbar = () => {
         }`}
       >
         <li>
-          <a href="#" className="sm:text-lg text-base font-medium">
+          <a href="#home" className="sm:text-lg text-base font-medium">
             Home
           </a>
         </li>
         <li>
-          <a href="#" className="sm:text-lg text-base font-medium">
+          <a href="#about" className="sm:text-lg text-base font-medium">
             About
           </a>
         </li>
         <li>
-          <a href="#" className="sm:text-lg text-base font-medium">
+          <a href="#product" className="sm:text-lg text-base font-medium">
             Product
           </a>
         </li>
         <li>
-          <a href="#" className="sm:text-lg text-base font-medium">
+          <a href="#contact" className="sm:text-lg text-base font-medium">
             Contact
           </a>
         </li>
