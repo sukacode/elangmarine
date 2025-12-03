@@ -44,7 +44,7 @@ function App() {
           <div className="flex items-center gap-4">
             <a
               href="#product"
-              className="bg-emerald-700 p-4 rounded-2xl hover:bg-emerald-600"
+              className="bg-violet-900 p-4 rounded-2xl hover:bg-emerald-600"
             >
               Our Products
             </a>
@@ -113,7 +113,12 @@ function App() {
         {/* Vision Mission */}
         <div className="vimi mt-32 py-10 gap-4">
           <div className="grid md:grid-cols-2 items-start items-center pt-6 xl:gap-0 gap-6 ">
-            <div className="bg-zinc-800 border border-zinc-600 rounded-md p-6">
+            <div
+              className="bg-zinc-800 border border-zinc-600 to-blue-700 rounded-md p-6"
+              data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-once="true"
+            >
               <h1 className="text-2xl text-center font-bold">Visi</h1>
               <p className="text-base/loose w-full">
                 Menjadi perusahaan jasa perbaikan kapal terkemuka di Indonesia
@@ -121,7 +126,12 @@ function App() {
                 terhadap keselamatan serta kualitas kerja.
               </p>
             </div>
-            <div className="bg-zinc-800 border border-zinc-600 p-6 rounded-md">
+            <div
+              className="bg-zinc-800 border border-zinc-600 p-6 rounded-md"
+              data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-once="true"
+            >
               <h1 className="text-2xl text-center font-bold">Misi</h1>
               <p className="text-base/loose w-full">
                 1.Menyediakan layanan perbaikan dan perawatan kapal dengan
