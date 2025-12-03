@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className="navbar py-7 flex items-center justify-between ">
       <div className="logo">
-        <h1 className="text-2xl font-bold text-[#00df9a] opacity-90 p-1 md:bg-transparent md:text-[#00df9a]">
+        <h1 className="text-2xl font-bold text-white opacity-90 p-1 md:bg-transparent md:text-white">
           <img
             src="/assets/elangmarine.ico"
             alt="Hero Image"

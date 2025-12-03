@@ -20,6 +20,19 @@ function App() {
               backspeed={240}
               loop
             />
+            <div className="custom-shape-divider-bottom-1764691577">
+              <svg
+                data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1200 120"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                  className="shape-fill"
+                ></path>
+              </svg>
+            </div>
             {/* <q>Elang Marine, jasa perbaikan dan perawatan kapal laut</q> */}
           </div>
           <h1 className="text-5xl/tight font-bold mb-6"></h1>
@@ -54,7 +67,7 @@ function App() {
       {/* About */}
       <div className="about mt-32 py-10" id="about">
         <div
-          className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
+          className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-gradient-to-br bg-zinc-800 via-zinc-700 to-zinc-750 rounded-lg"
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -98,9 +111,9 @@ function App() {
         </div>
 
         {/* Vision Mission */}
-        <div className="vimi mt-32 py-10">
-          <div className="grid md:grid-cols-2 items-start items-center pt-6 xl:gap-0 gap-6">
-            <div>
+        <div className="vimi mt-32 py-10 gap-4">
+          <div className="grid md:grid-cols-2 items-start items-center pt-6 xl:gap-0 gap-6 ">
+            <div className="bg-zinc-800 border border-zinc-600 rounded-md p-6">
               <h1 className="text-2xl text-center font-bold">Visi</h1>
               <p className="text-base/loose w-full">
                 Menjadi perusahaan jasa perbaikan kapal terkemuka di Indonesia
@@ -108,7 +121,7 @@ function App() {
                 terhadap keselamatan serta kualitas kerja.
               </p>
             </div>
-            <div>
+            <div className="bg-zinc-800 border border-zinc-600 p-6 rounded-md">
               <h1 className="text-2xl text-center font-bold">Misi</h1>
               <p className="text-base/loose w-full">
                 1.Menyediakan layanan perbaikan dan perawatan kapal dengan
