@@ -249,35 +249,6 @@ function App() {
       </div>
       {/* End of About */}
 
-      {/* Activity */}
-      <div className="vimi mt-32 py-10 gap-4">
-        <div className="grid md:grid-cols-2 items-start items-center pt-6 gap-6 ">
-          <div
-            className="bg-zinc-700 border border-zinc-600 to-blue-700 rounded-md p-6"
-            data-aos="fade-up"
-            data-aos-duration="300"
-            data-aos-once="true"
-          >
-            <h1 className="text-2xl text-center font-bold">Vision</h1>
-            <p className="text-base/loose w-full">
-              To become a leading ship repair service company in Indonesia,
-              recognized for reliability, professionalism, and a strong
-              commitment to safety and work quality.
-            </p>
-          </div>
-          <div
-            className="bg-zinc-700 border border-zinc-600 p-6 rounded-md"
-            data-aos="fade-up"
-            data-aos-duration="300"
-            data-aos-once="true"
-          >
-            <h1 className="text-2xl text-center font-bold">Mission</h1>
-            <img src="/assets/e" alt="" />
-          </div>
-        </div>
-      </div>
-      {/* Activity */}
-
       {/* Product */}
       <div className="proyek mt-32 py-10" id="product">
         <h1
