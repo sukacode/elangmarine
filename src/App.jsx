@@ -15,7 +15,7 @@ function App() {
               loading="lazy"
             />
             <ReactTyped
-              strings={["jasa perbaikan", "perawatan kapal laut"]}
+              strings={["ship repair", "maintenance services"]}
               typespeed={120}
               backspeed={240}
               loop
@@ -37,9 +37,9 @@ function App() {
           </div>
           <h1 className="text-5xl/tight font-bold mb-6"></h1>
           <p className="text-base/loose mb-6 opacity-50" id="element">
-            PT Elang Marine Teknindo adalah perusahaan yang bergerak di bidang
-            jasa perbaikan dan perawatan kapal laut, dengan komitmen tinggi
-            terhadap kualitas, ketepatan waktu, dan keselamatan kerja.
+            PT Elang Marine Teknindo is a company engaged in marine vessel
+            repair and maintenance services, with a strong commitment to
+            quality, timeliness, and workplace safety.
           </p>
           <div className="flex items-center gap-4">
             <a
@@ -78,13 +78,13 @@ function App() {
             loading="lazy"
           />
           <p className="text-base/loose mb-10">
-            Didirikan di Jakarta pada tahun 2025, kami hadir untuk mendukung
-            kebutuhan industri maritim Indonesia yang semakin berkembang,
-            terutama dalam layanan ship repair, maintenance, dan engineering
-            support untuk kapal niaga, kapal tunda, maupun kapal pemerintah.
-            Dengan tenaga ahli berpengalaman dan sistem kerja profesional, kami
-            bertekad menjadi mitra terpercaya bagi perusahaan galangan, operator
-            kapal, dan instansi maritim di seluruh Indonesia.
+            Established in Jakarta in 2025, we are here to support the growing
+            needs of Indonesia’s maritime industry, particularly in ship repair,
+            maintenance, and engineering support services for merchant vessels,
+            tugboats, and government vessels. With experienced specialists and a
+            professional work system, we are committed to becoming a trusted
+            partner for shipyards, vessel operators, and maritime institutions
+            across Indonesia.
           </p>
           <div className="flex items-center justify-between">
             {/* <img
@@ -114,34 +114,34 @@ function App() {
         <div className="vimi mt-32 py-10 gap-4">
           <div className="grid md:grid-cols-2 items-start items-center pt-6 xl:gap-0 gap-6 ">
             <div
-              className="bg-zinc-800 border border-zinc-600 to-blue-700 rounded-md p-6"
+              className="bg-zinc-700 border border-zinc-600 to-blue-700 rounded-md p-6"
               data-aos="fade-up"
               data-aos-duration="300"
               data-aos-once="true"
             >
-              <h1 className="text-2xl text-center font-bold">Visi</h1>
+              <h1 className="text-2xl text-center font-bold">Vision</h1>
               <p className="text-base/loose w-full">
-                Menjadi perusahaan jasa perbaikan kapal terkemuka di Indonesia
-                yang dikenal karena keandalan, profesionalisme, dan komitmen
-                terhadap keselamatan serta kualitas kerja.
+                To become a leading ship repair service company in Indonesia,
+                recognized for reliability, professionalism, and a strong
+                commitment to safety and work quality.
               </p>
             </div>
             <div
-              className="bg-zinc-800 border border-zinc-600 p-6 rounded-md"
+              className="bg-zinc-700 border border-zinc-600 p-6 rounded-md"
               data-aos="fade-up"
               data-aos-duration="300"
               data-aos-once="true"
             >
-              <h1 className="text-2xl text-center font-bold">Misi</h1>
+              <h1 className="text-2xl text-center font-bold">Mission</h1>
               <p className="text-base/loose w-full">
-                1.Menyediakan layanan perbaikan dan perawatan kapal dengan
-                standar mutu tinggi dan tepat waktu. <br />
-                2.Membangun kemitraan jangka panjang dengan pelanggan
-                berdasarkan kepercayaan dan integritas. <br /> 3.Mengembangkan
-                kompetensi sumber daya manusia di bidang teknik maritim. <br />{" "}
-                4.Menerapkan sistem manajemen keselamatan kerja dan lingkungan
-                yang berkelanjutan. <br /> 5.Berkontribusi terhadap pertumbuhan
-                industri maritim nasional.
+                1.To provide ship repair and maintenance services with
+                high-quality standards and timely execution.. <br />
+                2.To build long-term partnerships with customers based on trust
+                and integrity. <br /> 3.To develop the competencies of human
+                resources in the field of maritime engineering. <br />
+                4.To implement a sustainable occupational safety and
+                environmental management system. <br /> 5.To contribute to the
+                growth of the national maritime industry.
               </p>
             </div>
           </div>
@@ -156,7 +156,7 @@ function App() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            Nilai-nilai perusahaan
+            Company Values
           </h1>
           <p
             className="xl:w2/5 lg:w2/4 md:w2/3 sm:w3/4 w-full text-base/loose opacity-50"
@@ -164,7 +164,7 @@ function App() {
             data-aos-duration="300"
             data-aos-once="true"
           >
-            Berikut ini beberapa nilai-nilai perusahaan
+            Here are some of the company values.
           </p>
           <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
             {listTools.map((tool) => (
@@ -200,7 +200,7 @@ function App() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Produk
+          Products
         </h1>
         <p
           className="text-base/loose text-center opacity-50"
@@ -209,7 +209,7 @@ function App() {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          Produk yang kami miliki.
+          Our products.
         </p>
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map((proyek) => (
@@ -259,7 +259,7 @@ function App() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Kontak
+          Contact
         </h1>
         <p
           className="text-base/loose text-center bm-10 opacity-50"
@@ -268,7 +268,7 @@ function App() {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          Mari terhubung dengan kami
+          Get in touch with us
         </p>
 
         <form
@@ -283,11 +283,11 @@ function App() {
         >
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
-              <label className="font-semibold">Nama Lengkap</label>
+              <label className="font-semibold">Name</label>
               <input
                 type="text"
                 name="nama"
-                placeholder="Masukkan Nama"
+                placeholder="Enter Name"
                 required
                 className="border border-zinc-500 p-2 rounded-md"
               />
@@ -297,7 +297,7 @@ function App() {
               <input
                 type="email"
                 name="email"
-                placeholder="Masukkan email"
+                placeholder="Enter email"
                 className="border border-zinc-500 p-2 rounded-md"
                 required
               />
@@ -321,7 +321,7 @@ function App() {
                 type="submit"
                 className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600"
               >
-                Kirim Pesan
+                Submit
               </button>
             </div>
           </div>
