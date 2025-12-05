@@ -71,12 +71,21 @@ function App() {
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <h1
+            className="text-center text-4xl font-bold mb-2"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
+            About Us
+          </h1>
           <img
             src={DataImage.HeroImage}
             alt="Image"
-            className="w-12 rounded-md mb-10 sm:hidden"
+            className="w-12 rounded-md mb-10 sm:hidden mb-4"
             loading="lazy"
           />
+
           <p className="text-base/loose mb-10">
             Established in Jakarta in 2025, we are here to support the growing
             needs of Indonesia’s maritime industry, particularly in ship repair,
@@ -109,85 +118,84 @@ function App() {
             </div> */}
           </div>
         </div>
-
-        {/* Vision Mission */}
-        <div className="vimi mt-32 py-10 gap-4">
-          <div className="grid md:grid-cols-2 items-start items-center pt-6 xl:gap-0 gap-6 ">
-            <div
-              className="bg-zinc-700 border border-zinc-600 to-blue-700 rounded-md p-6"
-              data-aos="fade-up"
-              data-aos-duration="300"
-              data-aos-once="true"
-            >
-              <h1 className="text-2xl text-center font-bold">Vision</h1>
-              <p className="text-base/loose w-full">
-                To become a leading ship repair service company in Indonesia,
-                recognized for reliability, professionalism, and a strong
-                commitment to safety and work quality.
-              </p>
-            </div>
-            <div
-              className="bg-zinc-700 border border-zinc-600 p-6 rounded-md"
-              data-aos="fade-up"
-              data-aos-duration="300"
-              data-aos-once="true"
-            >
-              <h1 className="text-2xl text-center font-bold">Mission</h1>
-              <p className="text-base/loose w-full">
-                1.To provide ship repair and maintenance services with
-                high-quality standards and timely execution.. <br />
-                2.To build long-term partnerships with customers based on trust
-                and integrity. <br /> 3.To develop the competencies of human
-                resources in the field of maritime engineering. <br />
-                4.To implement a sustainable occupational safety and
-                environmental management system. <br /> 5.To contribute to the
-                growth of the national maritime industry.
-              </p>
-            </div>
-          </div>
-        </div>
-        {/* Vision Mission */}
-
-        {/* tools */}
-        <div className="tools mt-32">
-          <h1
-            className="text-4xl/snug font-bold mb-4"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-once="true"
-          >
-            Company Values
-          </h1>
-          <p
-            className="xl:w2/5 lg:w2/4 md:w2/3 sm:w3/4 w-full text-base/loose opacity-50"
+      </div>
+      {/* Vision Mission */}
+      <div className="vimi mt-32 py-10 gap-4">
+        <div className="grid md:grid-cols-2 items-start items-center pt-6 gap-6 ">
+          <div
+            className="bg-zinc-700 border border-zinc-600 to-blue-700 rounded-md p-6"
             data-aos="fade-up"
             data-aos-duration="300"
             data-aos-once="true"
           >
-            Here are some of the company values.
-          </p>
-          <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-            {listTools.map((tool) => (
-              <div
-                className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group"
-                key={tool.id}
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay={tool.dad}
-                data-aos-once="true"
-              >
-                <img
-                  src={tool.gambar}
-                  alt="Tools Image"
-                  className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
-                />
-                <div>
-                  <h4 className="font-bold">{tool.nama}</h4>
-                  <p className="opacity-50">{tool.ket}</p>
-                </div>
-              </div>
-            ))}
+            <h1 className="text-2xl text-center font-bold">Vision</h1>
+            <p className="text-base/loose w-full">
+              To become a leading ship repair service company in Indonesia,
+              recognized for reliability, professionalism, and a strong
+              commitment to safety and work quality.
+            </p>
           </div>
+          <div
+            className="bg-zinc-700 border border-zinc-600 p-6 rounded-md"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-once="true"
+          >
+            <h1 className="text-2xl text-center font-bold">Mission</h1>
+            <p className="text-base/loose w-full">
+              1.To provide ship repair and maintenance services with
+              high-quality standards and timely execution.. <br />
+              2.To build long-term partnerships with customers based on trust
+              and integrity. <br /> 3.To develop the competencies of human
+              resources in the field of maritime engineering. <br />
+              4.To implement a sustainable occupational safety and environmental
+              management system. <br /> 5.To contribute to the growth of the
+              national maritime industry.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* Vision Mission */}
+
+      {/* tools */}
+      <div className="tools mt-32">
+        <h1
+          className="text-4xl/snug font-bold mb-4"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          Company Values
+        </h1>
+        <p
+          className="xl:w2/5 lg:w2/4 md:w2/3 sm:w3/4 w-full text-base/loose opacity-50"
+          data-aos="fade-up"
+          data-aos-duration="300"
+          data-aos-once="true"
+        >
+          Here are some of the company values.
+        </p>
+        <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+          {listTools.map((tool) => (
+            <div
+              className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group"
+              key={tool.id}
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay={tool.dad}
+              data-aos-once="true"
+            >
+              <img
+                src={tool.gambar}
+                alt="Tools Image"
+                className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
+              />
+              <div>
+                <h4 className="font-bold">{tool.nama}</h4>
+                <p className="opacity-50">{tool.ket}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
       {/* End of About */}
