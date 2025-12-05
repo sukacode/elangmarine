@@ -2,6 +2,17 @@ import DataImage from "./data";
 import { listTools, listProyek } from "./data";
 import { ReactTyped } from "react-typed";
 
+// Swiper React
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Modules
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+// Styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 function App() {
   return (
     <>
@@ -80,13 +91,13 @@ function App() {
             About Us
           </h1>
           <img
-            src={DataImage.HeroImage}
+            src="assets/elangmarine.png"
             alt="Image"
             className="w-12 rounded-md mb-10 sm:hidden mb-4"
             loading="lazy"
           />
 
-          <p className="text-base/loose mb-10">
+          <p className="text-base/loose mb-8">
             Established in Jakarta in 2025, we are here to support the growing
             needs of Indonesia’s maritime industry, particularly in ship repair,
             maintenance, and engineering support services for merchant vessels,
@@ -119,6 +130,7 @@ function App() {
           </div>
         </div>
       </div>
+
       {/* Vision Mission */}
       <div className="vimi mt-32 py-10 gap-4">
         <div className="grid md:grid-cols-2 items-start items-center pt-6 gap-6 ">
@@ -157,7 +169,44 @@ function App() {
       </div>
       {/* Vision Mission */}
 
-      {/* tools */}
+      {/* Swiper */}
+      <div className="w-full max-w-4xl mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-20">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000 }}
+          loop={true}
+          className="rounded-xl"
+        >
+          <SwiperSlide>
+            <img
+              src="/assets/31.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 1"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img
+              src="/assets/32.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 2"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img
+              src="/assets/33.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      {/* Swiper */}
+
+      {/* company values */}
       <div className="tools mt-32">
         <h1
           className="text-4xl/snug font-bold mb-4"
@@ -199,6 +248,35 @@ function App() {
         </div>
       </div>
       {/* End of About */}
+
+      {/* Activity */}
+      <div className="vimi mt-32 py-10 gap-4">
+        <div className="grid md:grid-cols-2 items-start items-center pt-6 gap-6 ">
+          <div
+            className="bg-zinc-700 border border-zinc-600 to-blue-700 rounded-md p-6"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-once="true"
+          >
+            <h1 className="text-2xl text-center font-bold">Vision</h1>
+            <p className="text-base/loose w-full">
+              To become a leading ship repair service company in Indonesia,
+              recognized for reliability, professionalism, and a strong
+              commitment to safety and work quality.
+            </p>
+          </div>
+          <div
+            className="bg-zinc-700 border border-zinc-600 p-6 rounded-md"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-once="true"
+          >
+            <h1 className="text-2xl text-center font-bold">Mission</h1>
+            <img src="/assets/e" alt="" />
+          </div>
+        </div>
+      </div>
+      {/* Activity */}
 
       {/* Product */}
       <div className="proyek mt-32 py-10" id="product">
