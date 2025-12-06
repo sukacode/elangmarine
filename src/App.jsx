@@ -160,43 +160,6 @@ function App() {
       </div>
       {/* Vision Mission */}
 
-      {/* Swiper */}
-      <div className="w-full max-w-4xl mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-20">
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 3000 }}
-          loop={true}
-          className="rounded-xl"
-        >
-          <SwiperSlide>
-            <img
-              src="/assets/31.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 1"
-            />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img
-              src="/assets/32.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 2"
-            />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img
-              src="/assets/33.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 3"
-            />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      {/* Swiper */}
-
       {/* company values */}
       <div className="tools mt-32">
         <h1
@@ -239,6 +202,43 @@ function App() {
         </div>
       </div>
       {/* End of About */}
+
+      {/* Swiper */}
+      <div className="w-full max-w-4xl mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-20">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000 }}
+          loop={true}
+          className="rounded-xl"
+        >
+          <SwiperSlide>
+            <img
+              src="/assets/31.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 1"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img
+              src="/assets/32.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 2"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img
+              src="/assets/33.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      {/* Swiper */}
 
       {/* Product */}
       <div className="proyek mt-32 py-10" id="product">
