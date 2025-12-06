@@ -143,14 +143,14 @@ function App() {
           >
             <h1 className="text-2xl text-center font-bold">Mission</h1>
             <p className="text-base/loose w-full">
-              1.To provide ship repair and maintenance services with
-              high-quality standards and timely execution.. <br />
-              2.To build long-term partnerships with customers based on trust
-              and integrity. <br /> 3.To develop the competencies of human
+              1. To provide ship repair and maintenance services with
+              high-quality standards and timely execution. <br />
+              2. To build long-term partnerships with customers based on trust
+              and integrity. <br /> 3. To develop the competencies of human
               resources in the field of maritime engineering. <br />
-              4.To implement a sustainable occupational safety and environmental
-              management system. <br /> 5.To contribute to the growth of the
-              national maritime industry.
+              4. To implement a sustainable occupational safety and
+              environmental management system. <br /> 5. To contribute to the
+              growth of the national maritime industry.
             </p>
           </div>
         </div>
