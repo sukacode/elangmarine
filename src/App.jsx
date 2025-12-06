@@ -66,10 +66,7 @@ function App() {
       {/* About */}
       <div className="about mt-32 py-10" id="about">
         <div
-          className="w-2/3 lg:w-3/4 mx-auto p-7 
-             backdrop-blur-md bg-white/10 
-             border border-white/20 
-             rounded-lg shadow-xl"
+          className="w-2/3 lg:w-3/4 w-full mx-auto p-7 backdrop-blur-md bg-white/10 rounded-lg shadow-xl"
           data-aos="fade-up"
           data-aos-once="true"
         >
