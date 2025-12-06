@@ -18,19 +18,7 @@ function App() {
     <>
       <div className="hero grid md:grid-cols-2 items-center pt-6 xl:gap-0 gap-6">
         <div className="animate__animated animate__fadeInUp animate__delay-0.5s">
-          <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit   p-4 rounded-2xl">
-            <img
-              src={DataImage.HeroImage}
-              alt="Hero Image"
-              className="w-10 rounded-md"
-              loading="lazy"
-            />
-            <ReactTyped
-              strings={["ship repair", "maintenance services"]}
-              typespeed={120}
-              backspeed={240}
-              loop
-            />
+          {/* <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit   p-4 rounded-2xl">
             <div className="custom-shape-divider-bottom-1764691577">
               <svg
                 data-name="Layer 1"
@@ -44,8 +32,8 @@ function App() {
                 ></path>
               </svg>
             </div>
-            {/* <q>Elang Marine, jasa perbaikan dan perawatan kapal laut</q> */}
-          </div>
+            
+          </div> */}
           <h1 className="text-5xl/tight font-bold mb-6"></h1>
           <p className="text-base/loose mb-6 opacity-50" id="element">
             PT Elang Marine Teknindo is a company engaged in marine vessel
@@ -78,24 +66,27 @@ function App() {
       {/* About */}
       <div className="about mt-32 py-10" id="about">
         <div
-          className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-gradient-to-br bg-zinc-800 via-zinc-700 to-zinc-750 rounded-lg"
+          className="w-2/3 lg:w-3/4 mx-auto p-7 
+             backdrop-blur-md bg-white/10 
+             border border-white/20 
+             rounded-lg shadow-xl"
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <img
+            src="assets/elangmarine.ico"
+            alt="Image"
+            className="w-12 rounded-md sm:hidden mb-2 mx-auto block"
+            loading="lazy"
+          />
           <h1
-            className="text-center text-4xl font-bold mb-2"
+            className="text-center text-4xl font-bold mb-4"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
           >
             About Us
           </h1>
-          <img
-            src="assets/elangmarine.png"
-            alt="Image"
-            className="w-12 rounded-md mb-10 sm:hidden mb-4"
-            loading="lazy"
-          />
 
           <p className="text-base/loose mb-8">
             Established in Jakarta in 2025, we are here to support the growing
@@ -135,7 +126,7 @@ function App() {
       <div className="vimi mt-32 py-10 gap-4">
         <div className="grid md:grid-cols-2 items-start items-center pt-6 gap-6 ">
           <div
-            className="bg-zinc-700 border border-zinc-600 to-blue-700 rounded-md p-6"
+            className="backdrop-blur-md bg-white/10 border border-white/20 rounded-xl p-6 shadow-lg"
             data-aos="fade-up"
             data-aos-duration="300"
             data-aos-once="true"
@@ -148,7 +139,7 @@ function App() {
             </p>
           </div>
           <div
-            className="bg-zinc-700 border border-zinc-600 p-6 rounded-md"
+            className="backdrop-blur-md bg-white/10 border border-white/20 rounded-xl p-6 shadow-lg"
             data-aos="fade-up"
             data-aos-duration="300"
             data-aos-once="true"
