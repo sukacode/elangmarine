@@ -349,14 +349,14 @@ function App() {
             </div>
             <div className="flex flex-col gap-2">
               <label htmlFor="pesan" className="font-semibold">
-                Pesan
+                Text
               </label>
               <textarea
                 name="pesan"
                 id="pesan"
                 cols="45"
                 rows="7"
-                placeholder="Pesan....."
+                placeholder="Text....."
                 className="border border-zinc-500 p-2 rounded-md"
                 required
               ></textarea>
