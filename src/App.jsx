@@ -56,8 +56,8 @@ function App() {
           </div>
         </div>
         <img
-          src={DataImage.HeroImage}
-          alt="Image"
+          // src={DataImage.HeroImage}
+          alt="Image maintenance"
           className="w-[400px] md:ml-auto rounded-b-4xl opacity-60 animate__animated animate__fadeInUp animate__delay-1s"
           loading="lazy"
         />
