@@ -36,7 +36,7 @@ function App() {
           </div> */}
           <h1 className="text-5xl/tight font-bold mb-6"></h1>
           <p className="text-base/loose mb-6 opacity-50" id="element">
-            PT Elang Marine Teknindo merupakan perusahaan yang bergerak di
+            PT. Elang Marine Teknindo merupakan perusahaan yang bergerak di
             bidang jasa perbaikan dan pemeliharaan kapal laut, dengan komitmen
             kuat terhadap kualitas, ketepatan waktu, dan keselamatan kerja.
           </p>
