@@ -291,13 +291,6 @@ function App() {
           {/* /// */}
           <SwiperSlide>
             <img
-              src="/assets/28.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 3"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
               src="/assets/35.jpg"
               className="w-full h-64 object-cover rounded-xl"
               alt="Slide 3"
