@@ -55,140 +55,140 @@ function App() {
             </a> */}
           </div>
         </div>
+
         {/* Swiper */}
-        <SwiperSlide>
-          <div className="relative w-full max-w-[320px] sm:max-w-[360px] h-[420px] sm:h-[440px] mx-auto group">
-            {/* === MOBILE VERSION (1 layer) === */}
-            <SwiperSlide>
-              <div className="relative w-full max-w-[320px] sm:max-w-[360px] h-[420px] sm:h-[440px] mx-auto group">
-                {/* === MOBILE VERSION (1 layer) === */}
-                <div className="block sm:hidden w-full max-w-[360px] sm:max-w-[600px] mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-10">
-                  <Swiper
-                    modules={[Navigation, Pagination, Autoplay]}
-                    navigation
-                    pagination={{ clickable: true }}
-                    autoplay={{ delay: 3000 }}
-                    loop={true}
-                    className="rounded-xl"
-                  >
-                    <SwiperSlide>
-                      <img
-                        src="/assets/27.jpg"
-                        className="w-full h-96 object-cover rounded-xl"
-                      />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                      <img
-                        src="/assets/35.jpg"
-                        className="w-full h-96 object-cover rounded-xl"
-                      />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                      <img
-                        src="/assets/29.jpg"
-                        className="w-full h-96 object-cover rounded-xl"
-                      />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                      <img
-                        src="/assets/36.jpg"
-                        className="w-full h-96 object-cover rounded-xl"
-                      />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                      <img
-                        src="/assets/32.jpg"
-                        className="w-full h-96 object-cover rounded-xl"
-                      />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                      <img
-                        src="/assets/37.jpg"
-                        className="w-full h-96 object-cover rounded-xl"
-                      />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        src="/assets/38.jpg"
-                        className="w-full h-96 object-cover rounded-xl"
-                      />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        src="/assets/39.jpg"
-                        className="w-full h-96 object-cover rounded-xl"
-                      />
-                    </SwiperSlide>
-                  </Swiper>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            {/* === DESKTOP VERSION (3 layer stacked) === */}
-            <div className="hidden sm:block">
-              {/* BACK LAYER — posisi awal lebih nongol */}
-              <div
-                className="
-          absolute inset-0
-          translate-x-12 translate-y-10 -rotate-12 scale-[0.88]
-          bg-zinc-700 rounded-3xl overflow-hidden
-          shadow-2xl shadow-black/50 ring-1 ring-black/20
-          transition-all duration-700 ease-out
-          group-hover:-translate-x-[45%] group-hover:-translate-y-[22%] group-hover:-rotate-12
-        "
-                style={{ zIndex: 5 }}
-              >
-                <img
-                  src="/assets/32.jpg"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* MIDDLE LAYER — posisi awal lebih nongol */}
-              <div
-                className="
-          absolute inset-0
-          translate-x-7 translate-y-6 -rotate-6 scale-[0.92]
-          bg-zinc-800 rounded-3xl overflow-hidden
-          shadow-xl shadow-black/40 ring-1 ring-black/15
-          transition-all duration-700 ease-out
-          group-hover:translate-x-[45%] group-hover:-translate-y-[12%] group-hover:-rotate-3
-        "
-                style={{ zIndex: 7 }}
-              >
-                <img
-                  src="/assets/35.jpg"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* TOP LAYER — posisi awal sedikit lebih turun */}
-              <div
-                className="
-          absolute inset-0
-          translate-y-[12%] scale-[1.03]
-          bg-zinc-900 rounded-3xl overflow-hidden
-          shadow-2xl
-          transition-all duration-700 ease-out
-          group-hover:translate-y-[45%] group-hover:scale-[1.08]
-        "
-                style={{ zIndex: 10 }}
-              >
+        <div className="block sm:hidden w-full mt-10 flex flex-col items-center">
+          <div className="w-full max-w-[360px] mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60">
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              navigation
+              pagination={{ clickable: true }}
+              autoplay={{ delay: 3000 }}
+              loop={true}
+              className="rounded-xl"
+            >
+              <SwiperSlide>
                 <img
                   src="/assets/27.jpg"
-                  className="w-full h-full object-cover"
+                  className="w-full h-100 object-cover rounded-xl"
                 />
-              </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img
+                  src="/assets/35.jpg"
+                  className="w-full h-100 object-cover rounded-xl"
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img
+                  src="/assets/29.jpg"
+                  className="w-full h-100 object-cover rounded-xl"
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img
+                  src="/assets/3.jpg"
+                  className="w-full h-100 object-cover rounded-xl"
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img
+                  src="/assets/32.jpg"
+                  className="w-full h-100 object-cover rounded-xl"
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img
+                  src="/assets/4.jpg"
+                  className="w-full h-100 object-cover rounded-xl"
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img
+                  src="/assets/5.jpg"
+                  className="w-full h-100 object-cover rounded-xl"
+                />
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img
+                  src="/assets/6.jpg"
+                  className="w-full h-100 object-cover rounded-xl"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+
+        {/* === MOBILE VERSION === */}
+        <div className="block sm:hidden relative w-full max-w-[320px] h-0 group">
+          {/* kosong — memang mobile-only */}
+        </div>
+
+        {/* === DESKTOP VERSION === */}
+        <div className="hidden sm:block relative w-full max-w-[360px] h-[440px] mx-auto group">
+          <div>
+            <div
+              className="
+        absolute inset-0
+        translate-x-12 translate-y-10 -rotate-12 scale-[0.88]
+        bg-zinc-700 rounded-3xl overflow-hidden
+        shadow-2xl shadow-black/50 ring-1 ring-black/20
+        transition-all duration-700 ease-out
+        group-hover:-translate-x-[45%] group-hover:-translate-y-[22%] group-hover:-rotate-12
+      "
+              style={{ zIndex: 5 }}
+            >
+              <img
+                src="/assets/32.jpg"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div
+              className="
+        absolute inset-0
+        translate-x-7 translate-y-6 -rotate-6 scale-[0.92]
+        bg-zinc-800 rounded-3xl overflow-hidden
+        shadow-xl shadow-black/40 ring-1 ring-black/15
+        transition-all duration-700 ease-out
+        group-hover:translate-x-[45%] group-hover:-translate-y-[12%] group-hover:-rotate-3
+      "
+              style={{ zIndex: 7 }}
+            >
+              <img
+                src="/assets/35.jpg"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div
+              className="
+        absolute inset-0
+        translate-y-[12%] scale-[1.03]
+        bg-zinc-900 rounded-3xl overflow-hidden
+        shadow-2xl
+        transition-all duration-700 ease-out
+        group-hover:translate-y-[45%] group-hover:scale-[1.08]
+      "
+              style={{ zIndex: 10 }}
+            >
+              <img
+                src="/assets/27.jpg"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
-        </SwiperSlide>
+        </div>
 
         {/* Swiper */}
+
         {/* <img
           src="/assets/34.jpg"
           alt="Image maintenance"
@@ -198,7 +198,7 @@ function App() {
       </div>
 
       {/* About */}
-      <div className="about mt-32 py-10" id="about">
+      <div className="about mt-0 sm:mt-32 py-6 sm:py-10" id="about">
         <div
           className="w-2/3 lg:w-3/4 w-full mx-auto p-7 backdrop-blur-md bg-white/10 rounded-lg shadow-xl"
           data-aos="fade-up"
@@ -334,64 +334,6 @@ function App() {
       </div>
       {/* End of About */}
 
-      {/* Swiper */}
-      <div className="w-full max-w-4xl mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-20">
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 3000 }}
-          loop={true}
-          className="rounded-xl"
-        >
-          <SwiperSlide>
-            <img
-              src="/assets/27.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 1"
-            />
-          </SwiperSlide>
-          {/* /// */}
-          <SwiperSlide>
-            <img
-              src="/assets/35.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 3"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/assets/29.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 3"
-            />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img
-              src="/assets/31.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 3"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/assets/32.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 3"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="/assets/33.jpg"
-              className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 3"
-            />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      {/* Swiper */}
-
       {/* Product */}
       <div className="proyek mt-32 py-10" id="product">
         <h1
@@ -460,6 +402,95 @@ function App() {
       </div>
       {/* Product */}
 
+      {/* Swiper */}
+      <h1
+        className="text-center text-4xl font-bold mt-28"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
+        Works
+      </h1>
+      <p
+        className="text-base/loose text-center opacity-50"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+        data-aos-once="true"
+      >
+        Our Works activity.
+      </p>
+      <div className="w-full max-w-4xl mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-20">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000 }}
+          loop={true}
+          className="rounded-xl"
+        >
+          <SwiperSlide>
+            <img
+              src="/assets/27.jpg"
+              className="w-full h-100 object-cover rounded-xl"
+              alt="Slide 1"
+            />
+          </SwiperSlide>
+          {/* /// */}
+          <SwiperSlide>
+            <img
+              src="/assets/35.jpg"
+              className="w-full h-100 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/29.jpg"
+              className="w-full h-100 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img
+              src="/assets/3.jpg"
+              className="w-full h-100 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/32.jpg"
+              className="w-full h-100 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/4.jpg"
+              className="w-full h-100 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/5.jpg"
+              className="w-full h-100 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/6.jpg"
+              className="w-full h-100 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      {/* Swiper */}
+
       {/* kontak */}
       <div className="kontak mt-32 sm:p-10 p-0" id="contact">
         <h1
@@ -492,6 +523,8 @@ function App() {
         >
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
               <label className="font-semibold">Name</label>
               <input
                 type="text"
