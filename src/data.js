@@ -56,7 +56,7 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/33.jpg";
+import Proyek1 from "/assets/tools/mechanic.png";
 import Proyek2 from "/assets/31.jpg";
 import Proyek3 from "/assets/32.jpg";
 import Proyek4 from "/assets/proyek/proyek4.webp";

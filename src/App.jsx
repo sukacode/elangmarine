@@ -55,12 +55,47 @@ function App() {
             </a> */}
           </div>
         </div>
-        <img
-          src={DataImage.HeroImage}
+        {/* Swiper */}
+        <div className="w-[400px] md:ml-auto rounded-b-sm overflow-hidden shadow-xl mt-6">
+          <Swiper
+            modules={[Pagination, Autoplay]}
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 3000 }}
+            loop={true}
+            className="rounded-xl"
+          >
+            <SwiperSlide>
+              <img
+                src="/assets/31.jpg"
+                className="w-full h-64 object-cover rounded-xl"
+                alt="Slide 1"
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <img
+                src="/assets/32.jpg"
+                className="w-full h-64 object-cover rounded-xl"
+                alt="Slide 2"
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <img
+                src="/assets/33.jpg"
+                className="w-full h-64 object-cover rounded-xl"
+                alt="Slide 3"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+        {/* Swiper */}
+        {/* <img
+          // src={DataImage.HeroImage}
           alt="Image maintenance"
           className="w-[400px] md:ml-auto rounded-b-4xl opacity-60 animate__animated animate__fadeInUp animate__delay-1s"
           loading="lazy"
-        />
+        /> */}
       </div>
 
       {/* About */}
@@ -269,8 +304,11 @@ function App() {
               {/* image need maintain */}
               {/* <img src={proyek.gambar} alt="Proyek Image" loading="lazy" /> */}
               <div>
-                <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
-                <p className="text-base/loose mb-4">{proyek.desk}</p>
+                <h1 className="text-2xl font-bold my-4 flex col-2">
+                  <img src={proyek.gambar} className="w-4" />
+                  {proyek.nama}
+                </h1>
+                <p className="text-base/loose mb-4 ml-2">{proyek.desk}</p>
                 <div className="flex flex-wrap gap-2">
                   {proyek.tools.map((tool, index) => (
                     <p
