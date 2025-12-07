@@ -56,42 +56,66 @@ function App() {
           </div>
         </div>
         {/* Swiper */}
-        <div className="w-[400px] md:ml-auto rounded-b-sm overflow-hidden shadow-xl mt-6">
-          <Swiper
-            modules={[Pagination, Autoplay]}
-            pagination={{ clickable: true }}
-            autoplay={{ delay: 3000 }}
-            loop={true}
-            className="rounded-xl"
-          >
-            <SwiperSlide>
-              <img
-                src="/assets/31.jpg"
-                className="w-full h-64 object-cover rounded-xl"
-                alt="Slide 1"
-              />
-            </SwiperSlide>
+        {/* Swiper HERO */}
+        <Swiper
+          modules={[Autoplay]}
+          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          loop={true}
+          slidesPerView={1}
+          className="w-full flex justify-center"
+        >
+          <SwiperSlide>
+            <div className="relative w-[330px] h-[420px] mx-auto group">
+              {/* BACK LAYER */}
+              <div
+                className="absolute inset-0 -rotate-6 translate-x-6 translate-y-5 scale-[0.92]
+        bg-zinc-700 rounded-3xl shadow-xl overflow-hidden opacity-70
+        transition-all duration-700 ease-out
+        group-hover:-translate-x-[30%] group-hover:-translate-y-[15%] group-hover:-rotate-12"
+              >
+                <img
+                  src="/assets/31.jpg"
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
-            <SwiperSlide>
-              <img
-                src="/assets/32.jpg"
-                className="w-full h-64 object-cover rounded-xl"
-                alt="Slide 2"
-              />
-            </SwiperSlide>
+              {/* MIDDLE LAYER */}
+              <div
+                className="absolute inset-0 -rotate-3 translate-x-3 translate-y-3 scale-[0.96]
+        bg-zinc-800 rounded-3xl shadow-xl overflow-hidden opacity-85
+        transition-all duration-700 ease-out
+        group-hover:translate-x-[30%] group-hover:-translate-y-[5%] group-hover:-rotate-3"
+              >
+                <img
+                  src="/assets/32.jpg"
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
-            <SwiperSlide>
-              <img
-                src="/assets/33.jpg"
-                className="w-full h-64 object-cover rounded-xl"
-                alt="Slide 3"
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
+              {/* TOP LAYER */}
+              <div
+                className="absolute inset-0 bg-zinc-900 rounded-3xl overflow-hidden shadow-2xl
+        transition-all duration-700 ease-out
+        group-hover:translate-y-[30%] group-hover:scale-[1.06]"
+              >
+                <img
+                  src="/assets/34.jpg"
+                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60"></div>
+                <div className="absolute bottom-5 left-5 text-white">
+                  <h1 className="text-2xl font-bold">Super Flow</h1>
+                  <p className="text-white/70">Hover to split</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+
         {/* Swiper */}
         {/* <img
-          // src={DataImage.HeroImage}
+          src="/assets/34.jpg"
           alt="Image maintenance"
           className="w-[400px] md:ml-auto rounded-b-4xl opacity-60 animate__animated animate__fadeInUp animate__delay-1s"
           loading="lazy"
@@ -305,7 +329,7 @@ function App() {
               {/* <img src={proyek.gambar} alt="Proyek Image" loading="lazy" /> */}
               <div>
                 <h1 className="text-2xl font-bold my-4 flex col-2">
-                  <img src={proyek.gambar} className="w-4" />
+                  <img src={proyek.gambar} className="w-9 m-1" />
                   {proyek.nama}
                 </h1>
                 <p className="text-base/loose mb-4 ml-2">{proyek.desk}</p>
