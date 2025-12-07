@@ -40,22 +40,22 @@ const Navbar = () => {
       >
         <li>
           <a href="#home" className="sm:text-lg text-base font-medium">
-            Home
+            Beranda
           </a>
         </li>
         <li>
           <a href="#about" className="sm:text-lg text-base font-medium">
-            About
+            Tentang
           </a>
         </li>
         <li>
           <a href="#product" className="sm:text-lg text-base font-medium">
-            Product
+            Produk
           </a>
         </li>
         <li>
           <a href="#contact" className="sm:text-lg text-base font-medium">
-            Contact
+            Kontak
           </a>
         </li>
       </ul>

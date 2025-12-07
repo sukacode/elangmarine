@@ -36,16 +36,16 @@ function App() {
           </div> */}
           <h1 className="text-5xl/tight font-bold mb-6"></h1>
           <p className="text-base/loose mb-6 opacity-50" id="element">
-            PT Elang Marine Teknindo is a company engaged in marine vessel
-            repair and maintenance services, with a strong commitment to
-            quality, timeliness, and workplace safety.
+            PT Elang Marine Teknindo merupakan perusahaan yang bergerak di
+            bidang jasa perbaikan dan pemeliharaan kapal laut, dengan komitmen
+            kuat terhadap kualitas, ketepatan waktu, dan keselamatan kerja.
           </p>
           <div className="flex items-center gap-4">
             <a
               href="#product"
               className="bg-violet-900 p-4 rounded-2xl hover:bg-emerald-600"
             >
-              Our Products
+              Produk Kami
             </a>
             {/* <a
               href="#"
@@ -216,17 +216,17 @@ function App() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            About Us
+            Tentan Kami
           </h1>
 
           <p className="text-base/loose mb-8">
-            Established in Jakarta in 2025, we are here to support the growing
-            needs of Indonesia’s maritime industry, particularly in ship repair,
-            maintenance, and engineering support services for merchant vessels,
-            tugboats, and government vessels. With experienced specialists and a
-            professional work system, we are committed to becoming a trusted
-            partner for shipyards, vessel operators, and maritime institutions
-            across Indonesia.
+            Didirikan di Jakarta pada tahun 2025, kami hadir untuk mendukung
+            kebutuhan industri maritim Indonesia yang terus berkembang,
+            khususnya dalam layanan perbaikan kapal, perawatan, dan dukungan
+            teknik untuk kapal niaga, kapal tunda, dan kapal pemerintah. Dengan
+            spesialis berpengalaman dan sistem kerja yang profesional, kami
+            berkomitmen untuk menjadi mitra terpercaya bagi galangan kapal,
+            operator kapal, dan lembaga maritim di seluruh Indonesia.
           </p>
           <div className="flex items-center justify-between">
             {/* <img
@@ -262,11 +262,11 @@ function App() {
             data-aos-duration="300"
             data-aos-once="true"
           >
-            <h1 className="text-2xl text-center font-bold">Vision</h1>
+            <h1 className="text-2xl text-center font-bold">Visi</h1>
             <p className="text-base/loose w-full">
-              To become a leading ship repair service company in Indonesia,
-              recognized for reliability, professionalism, and a strong
-              commitment to safety and work quality.
+              Menjadi perusahaan jasa perbaikan kapal terkemuka di Indonesia
+              yang dikenal karena keandalan, profesionalisme, dan komitmen
+              terhadap keselamatan serta kualitas kerja.
             </p>
           </div>
           <div
@@ -275,16 +275,16 @@ function App() {
             data-aos-duration="300"
             data-aos-once="true"
           >
-            <h1 className="text-2xl text-center font-bold">Mission</h1>
+            <h1 className="text-2xl text-center font-bold">Misi</h1>
             <p className="text-base/loose w-full">
-              1. To provide ship repair and maintenance services with
-              high-quality standards and timely execution. <br />
-              2. To build long-term partnerships with customers based on trust
-              and integrity. <br /> 3. To develop the competencies of human
-              resources in the field of maritime engineering. <br />
-              4. To implement a sustainable occupational safety and
-              environmental management system. <br /> 5. To contribute to the
-              growth of the national maritime industry.
+              1. Menyediakan layanan perbaikan dan perawatan kapal dengan
+              standar mutu tinggi dan tepat waktu. <br />
+              2. Membangun kemitraan jangka panjang dengan pelanggan berdasarkan
+              kepercayaan dan integritas. <br /> 3. Mengembangkan kompetensi
+              sumber daya manusia di bidang teknik maritim. <br />
+              4. Menerapkan sistem manajemen keselamatan kerja dan lingkungan
+              yang berkelanjutan. <br /> 5. Berkontribusi terhadap pertumbuhan
+              industri maritim nasional.
             </p>
           </div>
         </div>
@@ -299,7 +299,7 @@ function App() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Company Values
+          Nilai - Nilai Perusahaan
         </h1>
         <p
           className="xl:w2/5 lg:w2/4 md:w2/3 sm:w3/4 w-full text-base/loose opacity-50"
@@ -307,7 +307,7 @@ function App() {
           data-aos-duration="300"
           data-aos-once="true"
         >
-          Here are some of the company values.
+          Berikut beberapa nilai-nilai perusahaan
         </p>
         <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listTools.map((tool) => (
@@ -342,7 +342,7 @@ function App() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Products
+          Produk
         </h1>
         <p
           className="text-base/loose text-center opacity-50"
@@ -351,7 +351,7 @@ function App() {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          Our products.
+          Produk kami.
         </p>
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map((proyek) => (
@@ -409,7 +409,7 @@ function App() {
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        Works
+        Aktifitas
       </h1>
       <p
         className="text-base/loose text-center opacity-50"
@@ -418,7 +418,7 @@ function App() {
         data-aos-delay="300"
         data-aos-once="true"
       >
-        Our Works activity.
+        Aktifitas kami.
       </p>
       <div className="w-full max-w-4xl mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-20">
         <Swiper
@@ -499,7 +499,7 @@ function App() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Contact
+          Kontak
         </h1>
         <p
           className="text-base/loose text-center bm-10 opacity-50"
@@ -508,7 +508,7 @@ function App() {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          Get in touch with us
+          Mari terhubung dengan kami
         </p>
 
         <form
@@ -525,11 +525,11 @@ function App() {
             <div className="flex flex-col gap-2">
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
-              <label className="font-semibold">Name</label>
+              <label className="font-semibold">Nama</label>
               <input
                 type="text"
                 name="nama"
-                placeholder="Enter Name"
+                placeholder="Masukkan Nama"
                 required
                 className="border border-zinc-500 p-2 rounded-md"
               />
@@ -539,21 +539,21 @@ function App() {
               <input
                 type="email"
                 name="email"
-                placeholder="Enter email"
+                placeholder="Masukkan email"
                 className="border border-zinc-500 p-2 rounded-md"
                 required
               />
             </div>
             <div className="flex flex-col gap-2">
               <label htmlFor="pesan" className="font-semibold">
-                Text
+                Pesan
               </label>
               <textarea
                 name="pesan"
                 id="pesan"
                 cols="45"
                 rows="7"
-                placeholder="Text....."
+                placeholder="Masukkan pesan....."
                 className="border border-zinc-500 p-2 rounded-md"
                 required
               ></textarea>
@@ -563,7 +563,7 @@ function App() {
                 type="submit"
                 className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600"
               >
-                Submit
+                Kirim
               </button>
             </div>
           </div>
