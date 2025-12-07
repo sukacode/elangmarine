@@ -117,7 +117,7 @@ function App() {
                 style={{ zIndex: 10 }}
               >
                 <img
-                  src="/assets/34.jpg"
+                  src="/assets/27.jpg"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -368,11 +368,8 @@ function App() {
               {/* image need maintain */}
               {/* <img src={proyek.gambar} alt="Proyek Image" loading="lazy" /> */}
               <div>
-                <h1 className="text-2xl font-bold my-4 flex col-2">
-                  <img src={proyek.gambar} className="w-9 m-1" />
-                  {proyek.nama}
-                </h1>
-                <p className="text-base/loose mb-4 ml-2">{proyek.desk}</p>
+                <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
+                <p className="text-base/loose mb-4">{proyek.desk}</p>
                 <div className="flex flex-wrap gap-2">
                   {proyek.tools.map((tool, index) => (
                     <p
