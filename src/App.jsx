@@ -57,62 +57,69 @@ function App() {
         </div>
         {/* Swiper */}
         <SwiperSlide>
-          <div className="relative w-[360px] h-[440px] mx-auto group">
-            <div
-              className={`
-        absolute inset-0
-        translate-x-8 translate-y-6 -rotate-8 scale-[0.88]
-        bg-zinc-700 rounded-3xl overflow-hidden
-        shadow-2xl shadow-black/50 ring-1 ring-black/20
-        transition-all duration-700 ease-out
-        group-hover:-translate-x-[30%] group-hover:-translate-y-[15%] group-hover:-rotate-12
-      `}
-              style={{ zIndex: 5 }}
-            >
-              <img
-                src="/assets/32.jpg"
-                className="w-full h-full object-cover"
-              />
-            </div>
-
-            {/* MIDDLE LAYER — kelihatan jelas */}
-            <div
-              className={`
-        absolute inset-0
-        translate-x-4 translate-y-4 -rotate-4 scale-[0.92]
-        bg-zinc-800 rounded-3xl overflow-hidden
-        shadow-xl shadow-black/40 ring-1 ring-black/15
-        transition-all duration-700 ease-out
-        group-hover:translate-x-[30%] group-hover:-translate-y-[5%] group-hover:-rotate-3
-      `}
-              style={{ zIndex: 7 }}
-            >
-              <img
-                src="/assets/35.jpg"
-                className="w-full h-full object-cover"
-              />
-            </div>
-
-            {/* TOP LAYER — utama */}
-            <div
-              className={`
-        absolute inset-0
-        translate-y-[4%] scale-[1.02]
-        bg-zinc-900 rounded-3xl overflow-hidden
-        shadow-2xl
-        transition-all duration-700 ease-out
-        group-hover:translate-y-[30%] group-hover:scale-[1.06]
-      `}
-              style={{ zIndex: 10 }}
-            >
+          <div className="relative w-full max-w-[320px] sm:max-w-[360px] h-[420px] sm:h-[440px] mx-auto group">
+            {/* === MOBILE VERSION (1 layer) === */}
+            <div className="absolute inset-0 bg-zinc-900 rounded-3xl overflow-hidden shadow-xl sm:hidden">
               <img
                 src="/assets/34.jpg"
-                className="w-full h-full object-cover transition-all duration-700"
+                className="w-full h-full object-cover"
               />
+            </div>
 
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60"></div>
-              <div className="absolute bottom-5 left-5 text-white">
-                <p className="text-white/70">Hover to split</p>
+            {/* === DESKTOP VERSION (3 layer stacked) === */}
+            <div className="hidden sm:block">
+              {/* BACK LAYER — posisi awal lebih nongol */}
+              <div
+                className="
+          absolute inset-0
+          translate-x-12 translate-y-10 -rotate-12 scale-[0.88]
+          bg-zinc-700 rounded-3xl overflow-hidden
+          shadow-2xl shadow-black/50 ring-1 ring-black/20
+          transition-all duration-700 ease-out
+          group-hover:-translate-x-[45%] group-hover:-translate-y-[22%] group-hover:-rotate-12
+        "
+                style={{ zIndex: 5 }}
+              >
+                <img
+                  src="/assets/32.jpg"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* MIDDLE LAYER — posisi awal lebih nongol */}
+              <div
+                className="
+          absolute inset-0
+          translate-x-7 translate-y-6 -rotate-6 scale-[0.92]
+          bg-zinc-800 rounded-3xl overflow-hidden
+          shadow-xl shadow-black/40 ring-1 ring-black/15
+          transition-all duration-700 ease-out
+          group-hover:translate-x-[45%] group-hover:-translate-y-[12%] group-hover:-rotate-3
+        "
+                style={{ zIndex: 7 }}
+              >
+                <img
+                  src="/assets/35.jpg"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* TOP LAYER — posisi awal sedikit lebih turun */}
+              <div
+                className="
+          absolute inset-0
+          translate-y-[12%] scale-[1.03]
+          bg-zinc-900 rounded-3xl overflow-hidden
+          shadow-2xl
+          transition-all duration-700 ease-out
+          group-hover:translate-y-[45%] group-hover:scale-[1.08]
+        "
+                style={{ zIndex: 10 }}
+              >
+                <img
+                  src="/assets/34.jpg"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -284,6 +291,13 @@ function App() {
           {/* /// */}
           <SwiperSlide>
             <img
+              src="/assets/28.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
               src="/assets/35.jpg"
               className="w-full h-64 object-cover rounded-xl"
               alt="Slide 3"
@@ -296,6 +310,7 @@ function App() {
               alt="Slide 3"
             />
           </SwiperSlide>
+
           <SwiperSlide>
             <img
               src="/assets/31.jpg"
