@@ -59,61 +59,75 @@ function App() {
         <SwiperSlide>
           <div className="relative w-full max-w-[320px] sm:max-w-[360px] h-[420px] sm:h-[440px] mx-auto group">
             {/* === MOBILE VERSION (1 layer) === */}
-            <div className="w-full max-w-4xl mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-20">
-              <Swiper
-                modules={[Navigation, Pagination, Autoplay]}
-                navigation
-                pagination={{ clickable: true }}
-                autoplay={{ delay: 3000 }}
-                loop={true}
-                className="rounded-xl"
-              >
-                <SwiperSlide>
-                  <img
-                    src="/assets/27.jpg"
-                    className="w-full h-64 object-cover rounded-xl"
-                    alt="Slide 1"
-                  />
-                </SwiperSlide>
-                {/* /// */}
-                <SwiperSlide>
-                  <img
-                    src="/assets/35.jpg"
-                    className="w-full h-64 object-cover rounded-xl"
-                    alt="Slide 3"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img
-                    src="/assets/29.jpg"
-                    className="w-full h-64 object-cover rounded-xl"
-                    alt="Slide 3"
-                  />
-                </SwiperSlide>
+            <SwiperSlide>
+              <div className="relative w-full max-w-[320px] sm:max-w-[360px] h-[420px] sm:h-[440px] mx-auto group">
+                {/* === MOBILE VERSION (1 layer) === */}
+                <div className="block sm:hidden w-full max-w-[360px] sm:max-w-[600px] mx-auto rounded-[40px] overflow-hidden border border-zinc-700 shadow-xl shadow-zinc-900/60 mt-10">
+                  <Swiper
+                    modules={[Navigation, Pagination, Autoplay]}
+                    navigation
+                    pagination={{ clickable: true }}
+                    autoplay={{ delay: 3000 }}
+                    loop={true}
+                    className="rounded-xl"
+                  >
+                    <SwiperSlide>
+                      <img
+                        src="/assets/27.jpg"
+                        className="w-full h-96 object-cover rounded-xl"
+                      />
+                    </SwiperSlide>
 
-                <SwiperSlide>
-                  <img
-                    src="/assets/31.jpg"
-                    className="w-full h-64 object-cover rounded-xl"
-                    alt="Slide 3"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img
-                    src="/assets/32.jpg"
-                    className="w-full h-64 object-cover rounded-xl"
-                    alt="Slide 3"
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img
-                    src="/assets/33.jpg"
-                    className="w-full h-64 object-cover rounded-xl"
-                    alt="Slide 3"
-                  />
-                </SwiperSlide>
-              </Swiper>
-            </div>
+                    <SwiperSlide>
+                      <img
+                        src="/assets/35.jpg"
+                        className="w-full h-96 object-cover rounded-xl"
+                      />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <img
+                        src="/assets/29.jpg"
+                        className="w-full h-96 object-cover rounded-xl"
+                      />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <img
+                        src="/assets/36.jpg"
+                        className="w-full h-96 object-cover rounded-xl"
+                      />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <img
+                        src="/assets/32.jpg"
+                        className="w-full h-96 object-cover rounded-xl"
+                      />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <img
+                        src="/assets/37.jpg"
+                        className="w-full h-96 object-cover rounded-xl"
+                      />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img
+                        src="/assets/38.jpg"
+                        className="w-full h-96 object-cover rounded-xl"
+                      />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img
+                        src="/assets/39.jpg"
+                        className="w-full h-96 object-cover rounded-xl"
+                      />
+                    </SwiperSlide>
+                  </Swiper>
+                </div>
+              </div>
+            </SwiperSlide>
 
             {/* === DESKTOP VERSION (3 layer stacked) === */}
             <div className="hidden sm:block">
