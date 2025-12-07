@@ -56,12 +56,10 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/tools/repair.png";
-import Proyek2 from "/assets/tools/repair.png";
-import Proyek3 from "/assets/tools/repair.png";
-import Proyek4 from "/assets/tools/repair.png";
-import Proyek5 from "/assets/tools/repair.png";
-import Proyek6 from "/assets/tools/repair.png";
+import Proyek1 from "/assets/tools/optimizing.png";
+import Proyek2 from "/assets/tools/engineering.png";
+import Proyek3 from "/assets/tools/helmet.png";
+import Proyek4 from "/assets/tools/maintenance.png";
 
 export const listProyek = [
   {

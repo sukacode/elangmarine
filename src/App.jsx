@@ -422,9 +422,18 @@ function App() {
               data-aos-once="true"
             >
               {/* image need maintain */}
-              {/* <img src={proyek.gambar} alt="Proyek Image" loading="lazy" /> */}
+
               <div>
-                <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
+                <h1 className="text-2xl font-bold my-4 flex items-center gap-3">
+                  {" "}
+                  <img
+                    src={proyek.gambar}
+                    alt="Proyek Image"
+                    loading="lazy"
+                    className="w-10"
+                  />
+                  {proyek.nama}
+                </h1>
                 <p className="text-base/loose mb-4">{proyek.desk}</p>
                 <div className="flex flex-wrap gap-2">
                   {proyek.tools.map((tool, index) => (
