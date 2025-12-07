@@ -512,7 +512,7 @@ function App() {
         </p>
 
         <form
-          action="https://formsubmit.co/firmansahalhadi@gmail.com"
+          action="https://formsubmit.co/support@elangmarine.com"
           method="POST"
           className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md"
           autoComplete="off"
