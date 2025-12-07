@@ -216,7 +216,7 @@ function App() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            Tentan Kami
+            Tentang Kami
           </h1>
 
           <p className="text-base/loose mb-8">
