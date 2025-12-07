@@ -56,62 +56,67 @@ function App() {
           </div>
         </div>
         {/* Swiper */}
-        {/* Swiper HERO */}
-        <Swiper
-          modules={[Autoplay]}
-          autoplay={{ delay: 2500, disableOnInteraction: false }}
-          loop={true}
-          slidesPerView={1}
-          className="w-full flex justify-center"
-        >
-          <SwiperSlide>
-            <div className="relative w-[330px] h-[420px] mx-auto group">
-              {/* BACK LAYER */}
-              <div
-                className="absolute inset-0 -rotate-6 translate-x-6 translate-y-5 scale-[0.92]
-        bg-zinc-700 rounded-3xl shadow-xl overflow-hidden opacity-70
+        <SwiperSlide>
+          <div className="relative w-[360px] h-[440px] mx-auto group">
+            <div
+              className={`
+        absolute inset-0
+        translate-x-8 translate-y-6 -rotate-8 scale-[0.88]
+        bg-zinc-700 rounded-3xl overflow-hidden
+        shadow-2xl shadow-black/50 ring-1 ring-black/20
         transition-all duration-700 ease-out
-        group-hover:-translate-x-[30%] group-hover:-translate-y-[15%] group-hover:-rotate-12"
-              >
-                <img
-                  src="/assets/31.jpg"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+        group-hover:-translate-x-[30%] group-hover:-translate-y-[15%] group-hover:-rotate-12
+      `}
+              style={{ zIndex: 5 }}
+            >
+              <img
+                src="/assets/32.jpg"
+                className="w-full h-full object-cover"
+              />
+            </div>
 
-              {/* MIDDLE LAYER */}
-              <div
-                className="absolute inset-0 -rotate-3 translate-x-3 translate-y-3 scale-[0.96]
-        bg-zinc-800 rounded-3xl shadow-xl overflow-hidden opacity-85
+            {/* MIDDLE LAYER — kelihatan jelas */}
+            <div
+              className={`
+        absolute inset-0
+        translate-x-4 translate-y-4 -rotate-4 scale-[0.92]
+        bg-zinc-800 rounded-3xl overflow-hidden
+        shadow-xl shadow-black/40 ring-1 ring-black/15
         transition-all duration-700 ease-out
-        group-hover:translate-x-[30%] group-hover:-translate-y-[5%] group-hover:-rotate-3"
-              >
-                <img
-                  src="/assets/32.jpg"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+        group-hover:translate-x-[30%] group-hover:-translate-y-[5%] group-hover:-rotate-3
+      `}
+              style={{ zIndex: 7 }}
+            >
+              <img
+                src="/assets/35.jpg"
+                className="w-full h-full object-cover"
+              />
+            </div>
 
-              {/* TOP LAYER */}
-              <div
-                className="absolute inset-0 bg-zinc-900 rounded-3xl overflow-hidden shadow-2xl
+            {/* TOP LAYER — utama */}
+            <div
+              className={`
+        absolute inset-0
+        translate-y-[4%] scale-[1.02]
+        bg-zinc-900 rounded-3xl overflow-hidden
+        shadow-2xl
         transition-all duration-700 ease-out
-        group-hover:translate-y-[30%] group-hover:scale-[1.06]"
-              >
-                <img
-                  src="/assets/34.jpg"
-                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
-                />
+        group-hover:translate-y-[30%] group-hover:scale-[1.06]
+      `}
+              style={{ zIndex: 10 }}
+            >
+              <img
+                src="/assets/34.jpg"
+                className="w-full h-full object-cover transition-all duration-700"
+              />
 
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60"></div>
-                <div className="absolute bottom-5 left-5 text-white">
-                  <h1 className="text-2xl font-bold">Super Flow</h1>
-                  <p className="text-white/70">Hover to split</p>
-                </div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60"></div>
+              <div className="absolute bottom-5 left-5 text-white">
+                <p className="text-white/70">Hover to split</p>
               </div>
             </div>
-          </SwiperSlide>
-        </Swiper>
+          </div>
+        </SwiperSlide>
 
         {/* Swiper */}
         {/* <img
@@ -271,20 +276,40 @@ function App() {
         >
           <SwiperSlide>
             <img
-              src="/assets/31.jpg"
+              src="/assets/27.jpg"
               className="w-full h-64 object-cover rounded-xl"
               alt="Slide 1"
             />
           </SwiperSlide>
-
+          {/* /// */}
+          <SwiperSlide>
+            <img
+              src="/assets/35.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/29.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/assets/31.jpg"
+              className="w-full h-64 object-cover rounded-xl"
+              alt="Slide 3"
+            />
+          </SwiperSlide>
           <SwiperSlide>
             <img
               src="/assets/32.jpg"
               className="w-full h-64 object-cover rounded-xl"
-              alt="Slide 2"
+              alt="Slide 3"
             />
           </SwiperSlide>
-
           <SwiperSlide>
             <img
               src="/assets/33.jpg"

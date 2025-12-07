@@ -56,12 +56,12 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/tools/mechanic.png";
-import Proyek2 from "/assets/31.jpg";
-import Proyek3 from "/assets/32.jpg";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek1 from "/assets/tools/repair.png";
+import Proyek2 from "/assets/tools/repair.png";
+import Proyek3 from "/assets/tools/repair.png";
+import Proyek4 from "/assets/tools/repair.png";
+import Proyek5 from "/assets/tools/repair.png";
+import Proyek6 from "/assets/tools/repair.png";
 
 export const listProyek = [
   {
@@ -80,7 +80,7 @@ export const listProyek = [
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Electrical & Instrumention Services",
+    nama: "Electrical & Instrumention services",
     desk: "Our services include a wide range of solutions designed to ensure the reliability, safety, and efficiency of electrical and control systems on board. We provide installation, repair, troubleshooting, and maintenance services for various electrical components and instrumentation systems on vessels",
     tools: [
       "Installation & troubleshooting",
